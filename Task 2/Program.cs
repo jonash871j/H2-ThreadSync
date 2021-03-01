@@ -15,13 +15,19 @@ class Program
                 counter += 60;
 
                 for (int i = 0; i < 60; i++)
+                {
                     Console.Write(character);
+                }
                 Console.WriteLine(" " + counter);
 
                 if (activeId == 1)
+                {
                     activeId = 2;
+                }
                 else if (activeId == 2)
+                {
                     activeId = 1;
+                }
             }
         }
     }

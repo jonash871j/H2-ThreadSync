@@ -19,7 +19,9 @@ class Program
             counter.Value += 60;
 
             for (int i = 0; i < 60; i++)
+            {
                 Console.Write(character);
+            }
             Console.WriteLine(" " + counter.Value);
 
             Monitor.Pulse(counter);
